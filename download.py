@@ -2,7 +2,7 @@ from pytube import YouTube
 from pytube import Playlist
 
 
-def download_video_list(youtube_link):
+def download_video_list(www.youtube.com/watch?v=tRvmyNt09n8):
 
     #input = array
     #for the length of the array you feed in.
@@ -22,7 +22,7 @@ def download_video_list(youtube_link):
             streams = url.streams.first()
 
             #destination of where you are saving the video on your system.
-            streams.download("file_path_here_folder")
+            streams.download("D:\Temp")
 
             #print statement will appear in ide to confirm when and if it downloaded the video starting from 0 to len(youtube_links)
             print("done "+str(x))
